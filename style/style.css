@@ -89,22 +89,36 @@ main {
 .about {
     background: #FFF8F3;
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 75px 150px;
     text-align: center;
+    margin: 80px;
+    box-shadow: 10px 10px 40px 5px gray;
+
 }
+.what-i-do{   box-shadow: 10px 10px 40px 5px gray;margin: 80px ;
+
+}
+
 
 .section-title {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 50px;
+    margin: 50px;
+
+
+}
+.h3-title{ text-align: center;
+    margin-top: 50px;
 }
 
 .section-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    
 }
+
 
 .description {
     display: flex;
@@ -145,7 +159,10 @@ main {
 
 .my-res{
     display: flex;
-    margin: 10px 80px;
+    padding: 50px;
+}
+.resume{    margin: 10px 80px 50px ;
+    box-shadow: 10px 10px 40px 5px gray;
 }
 .resume-item{
     margin: 60px;}
@@ -154,6 +171,7 @@ main {
     font-size: 25px;
     color: #474747;
     margin-bottom: 10px;
+    
 }
 .resume .sub-title{
     color: #757575;
@@ -170,7 +188,9 @@ main {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
-    padding: 130px 200px;
+    margin: 80px 80px;
+    padding: 130px 150px;    box-shadow: 10px 10px 40px 5px gray;
+
 }
 .contact .section-title{
     text-align: left;
